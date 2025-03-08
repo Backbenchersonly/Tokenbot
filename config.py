@@ -31,8 +31,8 @@ PORT = os.environ.get("PORT", "8095")
 DB_URI = "mongodb+srv://zxbots:zXaBhi2315a@cluster0.lbbygpm.mongodb.net/?retryWrites=true&w=majority"
 DB_NAME = os.environ.get("DATABASE_NAME", "tokenbota")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "001fd73ae1e8d3a575bf1a151dc74aa8f4658d05")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://inshorturl.com/")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "4943e4169c0683d4df1dc7a557dfc743d4bbf25d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
