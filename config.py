@@ -28,11 +28,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7550106593"))
 PORT = os.environ.get("PORT", "8095")
 
 #Database 
-DB_URI = "mongodb+srv://Bapusarkarbjppvt:2HqLJGdyuBCclxDz@cluster0.khf1x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_URI = "mongodb+srv://Bapusarkarbjppvt:2HqLJGdyuBCclxDz@.khf1x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "tokenbota")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://inshorturl.com/")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "4943e4169c0683d4df1dc7a557dfc743d4bbf25d")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
